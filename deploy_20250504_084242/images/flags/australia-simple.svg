@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#00008B"/>
+  <g fill="#fff">
+    <path d="M0,0 L400,266.7 L0,533.3 z"/>
+    <path d="M50,0 L450,266.7 L50,533.3 z" fill="#00008B"/>
+    <path d="M0,0 L0,533.3 L450,266.7 z" fill="#00008B"/>
+    <rect x="0" y="200" width="450" height="133.3"/>
+    <rect x="158.3" y="0" width="133.3" height="533.3"/>
+    <rect x="0" y="200" width="450" height="133.3" fill="#00008B" stroke="#fff" stroke-width="33.3"/>
+    <rect x="158.3" y="0" width="133.3" height="533.3" fill="#00008B" stroke="#fff" stroke-width="33.3"/>
+    <rect x="0" y="200" width="450" height="133.3" fill="#00008B" stroke="#E4202E" stroke-width="22.2"/>
+    <rect x="158.3" y="0" width="133.3" height="533.3" fill="#00008B" stroke="#E4202E" stroke-width="22.2"/>
+  </g>
+  <!-- Commonwealth Star -->
+  <path fill="#fff" d="M675,150 L690,195 L735,195 L700,225 L715,270 L675,240 L635,270 L650,225 L615,195 L660,195 Z"/>
+  <!-- Alpha Crucis -->
+  <path fill="#fff" d="M675,450 L690,495 L735,495 L700,525 L715,570 L675,540 L635,570 L650,525 L615,495 L660,495 Z"/>
+  <!-- Beta Crucis -->
+  <path fill="#fff" d="M825,300 L840,345 L885,345 L850,375 L865,420 L825,390 L785,420 L800,375 L765,345 L810,345 Z"/>
+  <!-- Gamma Crucis -->
+  <path fill="#fff" d="M525,300 L540,345 L585,345 L550,375 L565,420 L525,390 L485,420 L500,375 L465,345 L510,345 Z"/>
+  <!-- Delta Crucis -->
+  <path fill="#fff" d="M600,150 L615,195 L660,195 L625,225 L640,270 L600,240 L560,270 L575,225 L540,195 L585,195 Z"/>
+  <!-- Epsilon Crucis -->
+  <path fill="#fff" d="M600,450 L615,495 L660,495 L625,525 L640,570 L600,540 L560,570 L575,525 L540,495 L585,495 Z"/>
+</svg> 

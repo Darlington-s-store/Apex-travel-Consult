@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+  <rect width="300" height="150" fill="#00843D" rx="5" ry="5"/>
+  <text x="150" y="65" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">AUSTRALIAN</text>
+  <text x="150" y="90" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">EDUCATION BOARD</text>
+  <path d="M70,110 L230,110 L230,105 L70,105 Z" fill="#FFC72C"/>
+  <path d="M140,40 L160,40 M150,30 L150,50" stroke="white" stroke-width="3"/>
+</svg> 

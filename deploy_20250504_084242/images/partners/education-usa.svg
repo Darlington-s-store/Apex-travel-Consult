@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+  <rect width="300" height="150" fill="#0a3161" rx="5" ry="5"/>
+  <text x="150" y="70" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">EDUCATION</text>
+  <text x="150" y="100" font-family="Arial, sans-serif" font-size="26" fill="#B31942" text-anchor="middle" font-weight="bold">USA</text>
+  <path d="M90,115 L210,115 L210,110 L90,110 Z" fill="#B31942"/>
+  <path d="M120,45 L180,45 L150,30 Z" fill="#B31942"/>
+</svg> 

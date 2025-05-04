@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bolt Education Consultants - Your trusted partner for international education, travel, and employment opportunities" />
+    <title>Bolt Education Consultants</title>
+    <style>
+      /* Initial preloader styles - minimal version with only blinking logo */
+      #initial-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0F172A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+        transition: opacity 0.5s ease-in-out;
+      }
+      
+      .logo-container {
+        width: 220px;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 12px;
+        border: 2px solid #F59E0B;
+        padding: 16px;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+      }
+      
+      .logo-container img {
+        max-width: 100%;
+        height: auto;
+        animation: blink 3s infinite;
+      }
+      
+      @keyframes blink {
+        0% { opacity: 0.5; }
+        50% { opacity: 1; }
+        100% { opacity: 0.5; }
+      }
+      
+      .fade-out {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Initial Loader (just a blinking logo) -->
+    <div id="initial-loader">
+      <div class="logo-container">
+        <img src="/images/Logo.png" alt="Bolt Education Consultants Logo" />
+      </div>
+    </div>
+    
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <script>
+      // Minimal initial loader script
+      (function() {
+        const initialLoader = document.getElementById('initial-loader');
+        
+        // Hide the initial loader once React is mounted and ready
+        window.addEventListener('load', () => {
+          // Small delay to ensure React component is ready
+          setTimeout(() => {
+            initialLoader.classList.add('fade-out');
+            // Remove from DOM after transition
+            setTimeout(() => {
+              if (initialLoader.parentNode) {
+                initialLoader.parentNode.removeChild(initialLoader);
+              }
+            }, 500);
+          }, 800);
+        });
+        
+        // Fallback - hide initial loader after max time to prevent it getting stuck
+        setTimeout(() => {
+          initialLoader.classList.add('fade-out');
+          setTimeout(() => {
+            if (initialLoader.parentNode) {
+              initialLoader.parentNode.removeChild(initialLoader);
+            }
+          }, 500);
+        }, 12000);
+      })();
+    </script>
+  </body>
+</html> 

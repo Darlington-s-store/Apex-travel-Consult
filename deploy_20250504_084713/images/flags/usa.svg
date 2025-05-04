@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1235 650">
+  <rect width="1235" height="650" fill="#bf0a30"/>
+  <rect width="1235" height="50" fill="#fff" y="50"/>
+  <rect width="1235" height="50" fill="#fff" y="150"/>
+  <rect width="1235" height="50" fill="#fff" y="250"/>
+  <rect width="1235" height="50" fill="#fff" y="350"/>
+  <rect width="1235" height="50" fill="#fff" y="450"/>
+  <rect width="1235" height="50" fill="#fff" y="550"/>
+  <rect width="494" height="350" fill="#002868"/>
+  <g fill="#fff">
+    <g id="s5">
+      <g id="s4">
+        <g id="s3">
+          <g id="s2">
+            <g id="s1">
+              <polygon id="s" points="247,10 253.5,29 270,29 256.5,40.5 262.7,59 247,48 231.3,59 237.5,40.5 224,29 240.5,29"/>
+              <use xlink:href="#s" y="70"/>
+              <use xlink:href="#s" y="140"/>
+              <use xlink:href="#s" y="210"/>
+              <use xlink:href="#s" y="280"/>
+            </g>
+            <use xlink:href="#s1" x="58.4"/>
+          </g>
+          <use xlink:href="#s2" x="58.4"/>
+        </g>
+        <use xlink:href="#s3" x="58.4"/>
+      </g>
+      <use xlink:href="#s4" x="58.4"/>
+    </g>
+    <use xlink:href="#s5" x="58.4"/>
+  </g>
+</svg> 

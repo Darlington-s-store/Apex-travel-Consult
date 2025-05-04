@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#bf0a30"/>
+  <rect y="46.2" width="900" height="46.2" fill="#fff"/>
+  <rect y="138.5" width="900" height="46.2" fill="#fff"/>
+  <rect y="230.8" width="900" height="46.2" fill="#fff"/>
+  <rect y="323.1" width="900" height="46.2" fill="#fff"/>
+  <rect y="415.4" width="900" height="46.2" fill="#fff"/>
+  <rect y="507.7" width="900" height="46.2" fill="#fff"/>
+  <rect width="360" height="323.1" fill="#002868"/>
+  <g fill="#fff">
+    <g id="s18">
+      <g id="s9">
+        <g id="s5">
+          <g id="s4">
+            <path id="s" d="M24,13.9 21.1,21.1 13.9,21.1 19.5,25.8 16.7,32.8 24,28 31.4,32.8 28.5,25.8 34.2,21.1 26.9,21.1z"/>
+            <use href="#s" x="36"/>
+            <use href="#s" x="72"/>
+            <use href="#s" x="108"/>
+          </g>
+          <use href="#s4" y="36"/>
+        </g>
+        <use href="#s5" y="72"/>
+      </g>
+      <use href="#s9" y="108"/>
+    </g>
+    <use href="#s18" y="108"/>
+  </g>
+</svg> 

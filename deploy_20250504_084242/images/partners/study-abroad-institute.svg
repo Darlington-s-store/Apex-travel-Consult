@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+  <rect width="300" height="150" fill="#4B5563" rx="5" ry="5"/>
+  <path d="M150,30 L180,60 L150,90 L120,60 Z" fill="#F59E0B"/>
+  <text x="150" y="65" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">STUDY ABROAD</text>
+  <text x="150" y="90" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">INSTITUTE</text>
+  <path d="M80,110 L220,110 L220,105 L80,105 Z" fill="#F59E0B"/>
+</svg> 

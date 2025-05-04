@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <rect width="200" height="100" fill="#00407A" />
+  <text x="100" y="40" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">UNIVERSITY OF</text>
+  <text x="100" y="65" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">MELBOURNE</text>
+  <text x="100" y="85" font-family="Georgia, serif" font-size="10" fill="white" text-anchor="middle">AUSTRALIA</text>
+</svg> 
