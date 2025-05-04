@@ -124,7 +124,7 @@ const Header = () => {
           </div>
           <div className="flex items-center justify-center mb-6">
             <Plane className="text-[#F59E0B] mr-2" size={20} />
-            <span className="text-sm font-medium text-white">+233 594 189 892</span>
+            <span className="text-sm font-medium text-white">+233 530 982 527</span>
           </div>
           <ul className="flex flex-col space-y-4">
             {menuItems.map((item) => (
