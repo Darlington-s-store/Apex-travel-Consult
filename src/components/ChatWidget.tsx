@@ -24,7 +24,7 @@ const ChatWidget = () => {
           </div>
           <p className="text-sm mb-4">Chat with us for help with your travel plans!</p>
           <a 
-            href="https://wa.me/+233530982527" 
+            href="https://wa.me/+233598879349" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-[#25D366] hover:bg-[#128C7E] text-white py-2 px-4 rounded flex items-center justify-center transition-colors"
